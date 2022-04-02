@@ -1,0 +1,32 @@
+main {
+  width: 100%;
+  height: 485px;
+
+  .meme-container {
+    width: 100%;
+    .form {
+      display: grid;
+      grid-template: 40px 40px /1fr 1fr;
+      grid-gap: 15px;
+      margin: 36px 0;
+      .text {
+        border-radius: 5px;
+        border: 1px solid rgba(213, 212, 216, 1);
+        height: 35px;
+        text-indent: 11px;
+      }
+      .btn {
+        border-radius: 5px;
+        grid-column: 1 /-1;
+        background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+        border-radius: 5px;
+        font-family: "Karla";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #ffffff;
+        
+      }
+    }
+  }
+}
