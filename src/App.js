@@ -1,5 +1,6 @@
 import Header from './components/Header.js';
 import Meme from './components/Meme.js';
+import IsFavorite from './components/IsFavorite.js';
 
 
 export default function App(){
@@ -7,6 +8,7 @@ export default function App(){
         <div>
             <Header />
             <Meme  />
+                <IsFavorite />
         </div>
     )
 }
