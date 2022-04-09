@@ -28,5 +28,16 @@ main {
         
       }
     }
+    .img-wrap{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .meme-img{
+        width: 90%;
+        border-radius: 15px;
+      }
+    }
   }
 }
