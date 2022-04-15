@@ -1,17 +1,29 @@
-import {useState} from "react";
+// import {useState} from "react";
 
 export default function Box(props){
 
-    const [on, setOn] = useState(props.on)
+
+    // const styles = {
+    //     backgroundColor: props.on ? "#222222" : "transparent",
+    // }
+    // const [on, setOn] = useState(props.on)
     const styles = {
-        backgroundColor: on ? "#222222" : "transparent",
-        borderRadius: on ? '50%' : '5px'
+        backgroundColor: props.on ? "#222222" : "transparent",
+        borderRadius: props.on ? '50%' : '5px',
+        transition: props.on ? 'all 0.5s ease-in-out' : 'all 0.5s ease-in-out',
     }
-    function toggle(){
-        setOn(prevOn => !prevOn)
-    }
-    console.log(props.on );
+    // function toggle(){
+    //     setOn(prevOn => !prevOn)
+    // }
+    // console.log(props.on );
     return(
-        <div className='box' style={styles} onClick={toggle}></div>
+        
+        <div className='box'
+            style={styles}
+            onClick={()=> props.handleClick(props.id)}
+
+          >
+
+          </div>
     )
 }
