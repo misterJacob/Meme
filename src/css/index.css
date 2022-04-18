@@ -175,6 +175,30 @@ main .meme-container .img-wrap .meme-img {
   margin: 2px;
 }
 
+.jokes-container {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jokes-container .line {
+  border: 1px solid black;
+  width: 100%;
+  margin: 5px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
