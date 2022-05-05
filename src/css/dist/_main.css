@@ -1,0 +1,63 @@
+main {
+  width: 100%;
+  height: 485px;
+}
+main .meme-container {
+  width: 100%;
+}
+main .meme-container .form {
+  display: grid;
+  grid-template: 40px 40px/1fr 1fr;
+  grid-gap: 15px;
+  margin: 36px 0;
+}
+main .meme-container .form .text {
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  height: 35px;
+  text-indent: 11px;
+}
+main .meme-container .form .btn {
+  border-radius: 5px;
+  grid-column: 1/-1;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+main .meme-container .img-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+main .meme-container .img-wrap .meme-img {
+  width: 90%;
+  border-radius: 15px;
+}
+main .meme-container .img-wrap .text-top,
+main .meme-container .img-wrap .text-bottom {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000;
+}
+main .meme-container .img-wrap .text-top {
+  top: 0;
+}
+main .meme-container .img-wrap .text-bottom {
+  bottom: 0;
+}

@@ -3,6 +3,9 @@
 @import"isfavorite";
 @import"boxes";
 @import"jokes";
+@import"feellucky";
+@import"additem";
+@import"tenzies";
 
 
 *{
@@ -13,6 +16,7 @@
 body{
     max-width: 550px;
     margin:  auto;
+    margin-bottom: 2em;
 
 }
 p, h1, h2, h3{

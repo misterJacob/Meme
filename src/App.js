@@ -5,6 +5,8 @@ import Boxes from "./components/Boxes.js";
 import Joke from "./components/Joke.js";
 import jokesData from "./components/jokesData.js";
 import Messages from "./components/Messages.js";
+import FeelLucky from "./components/FeelLucky.js";
+import AddItem from "./components/AddItem.js";
 
 
 export default function App() {
@@ -23,9 +25,11 @@ export default function App() {
       <Header />
       <Meme />
       <Card />
+      <FeelLucky />
       <Boxes />
       {jokeElements}
       <Messages />
+      <AddItem />
     </>
   );
 }
