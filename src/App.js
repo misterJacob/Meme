@@ -7,6 +7,7 @@ import jokesData from "./components/jokesData.js";
 import Messages from "./components/Messages.js";
 import FeelLucky from "./components/FeelLucky.js";
 import AddItem from "./components/AddItem.js";
+import Tenzies from "./components/Tenzies.js";
 
 
 export default function App() {
@@ -30,6 +31,7 @@ export default function App() {
       {jokeElements}
       <Messages />
       <AddItem />
+      <Tenzies />
     </>
   );
 }
