@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/meme/static/css/main.505c0f88.css",
-    "main.js": "/meme/static/js/main.7255adcb.js",
-    "index.html": "/meme/index.html",
-    "main.505c0f88.css.map": "/meme/static/css/main.505c0f88.css.map",
-    "main.7255adcb.js.map": "/meme/static/js/main.7255adcb.js.map"
+    "main.css": "/Meme/static/css/main.505c0f88.css",
+    "main.js": "/Meme/static/js/main.7255adcb.js",
+    "index.html": "/Meme/index.html",
+    "main.505c0f88.css.map": "/Meme/static/css/main.505c0f88.css.map",
+    "main.7255adcb.js.map": "/Meme/static/js/main.7255adcb.js.map"
   },
   "entrypoints": [
     "static/css/main.505c0f88.css",
