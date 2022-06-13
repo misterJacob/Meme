@@ -1,5 +1,5 @@
 import React from "react"
-import Star from "./Star.js";
+// import Star from "./Star.js";
 
 
 export default function Card(){
@@ -19,12 +19,23 @@ export default function Card(){
         isFavorite: !prevContact.isFavorite,
       }));
     }
-
+// star.js
+    function Star(props) {
+      const starIcon = props.isFilled ? "star-filled.png" : "star-empty.png";
+      return (
+        <img
+          src={`../images/${starIcon}`}
+          className="card--favorite"
+          onClick={props.handleClick}
+          alt="favorite"
+         />
+      );
+    }
 
     return (
       <div className="isfavorite">
         <article className="card">
-          <img src="./images/user.png" className="card--image" />
+          <img src="./images/user.png" className="card--image" alt=""/>
           <div className="card--info">
             <Star isFilled={contact.isFavorite} handleClick={toggleFavorite} />
             <h2 className="card--name">
